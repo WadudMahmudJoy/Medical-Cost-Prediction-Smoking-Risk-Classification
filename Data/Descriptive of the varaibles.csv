@@ -1,0 +1,55 @@
+Variables,Description,
+ID,Identification  code.,
+ID_policy,(Generic)  Policy  identification  code.,
+ID_insured,Insured  identification  code.,
+period,Calendar  year  (YYYY).,
+date_effect_insured,Effective  date  of  insured  policy  in  the  company  (DD/MM/YYYY).,
+date_lapse_insured,Lapse  date  of  insured  policy  in  the  company  (DD/MM/YYYY).,
+date_effect_policy,Effective  date  of  generic  policy  in  the  company  (DD/MM/YYYY).,
+date_lapse_policy,Lapse  date  of  generic  policy  in  the  company  (DD/MM/YYYY).,
+year_effect_insured,year  of  date  effect  insured  variable  (YYYY).,
+year_lapse_insured,year  of  date  lapse  insured  variable  (YYYY).,
+year_effect_policy,year  of  date  effect  policy  variable  (YYYY).,
+year_lapse_policy,year  of  date  lapse  policy  variable  (YYYY).,
+exposure_time,"Time,  measured  in  years,  representing  the  insured’s  risk exposure  (value  between  zero  and  one).",
+lapse,"Policy  Status  Code. 1:  Lapse  before  expiration, 2:  Active, 3:  Lapse  at  (experitation)  YYYY/12/31.",
+seniority_insured,Total  number  of  years  that  the  insured  policy  has  been  associated with  the  insurance  entity.,
+seniority_policy,Total  number  of  years  that  the  generic  policy  has  been  associated  with the  insurance  entity.,
+type_policy,"(Generic)  policy  type,  indicating  whether  the  policy  is I:  Individual, C:  Collective.",
+type_policy_dg,"(Generic)  policy  type,  disaggregated  by  group  collectives. S:  Self-Employed, I:  Individual, C1:  Collective  1, C2:  Collective  2, C3:  Collective  3, C4:  Collective  4.",
+type_product,"(Generic)  policy  Coverage. D:  Dental, P:  Premium, S:  Standard, I:  International.",
+reimbursement,The  act  of  reimbursing  an  amount  of  money  to  the  individual who  originally  paid  it  (yes  or  no),
+new_business,Indicates  whether  the  insured  policy  is  new  business  or  not  (yes  or  no).,
+distribution_channel,"Distribution  channel  through  which  the  generic  policy  was  processed. A:  Agency, D:  Direct  business, I:  Insurance  Intermediary.",
+gender,"Gender  of  the  insured. M:  Male, F:  Female.",
+age,"Age  of  the  insured,  measured  in  whole  years, obtained  by  rounding  to  the  closest  integer the  exact  (decimal)  age  of  the  insured.",
+premium,Net  premium  amount  associated  with  the  insured  policy  during  the current  year.,
+cost_claims_year,Total  cost  of  claims  for  the  insured  policy  during  the  current year.,
+n_medical_services,Total  number  of  medical  services  for  the  insured  policy policy  during  the  current  year.,
+n_insured_pc,Number of unique insured individuals by postal code and period,
+n_insured_mun,Number of unique insured individuals by municipality and period,
+n_insured_prov,Number of unique insured individuals by province and period,
+IICIMUN,"Concentration index of insured per 1,000 inhabitants by municipality and period.",
+IICIPROV,"Concentration index of insured per 1,000 inhabitants by province and period.",
+C_H,"Categorization of the population by municipality and Habitat size variable.
+H1 = Municipality with up to 1,000 inhabitants
+H2 = Municipality with between 1,001 and 10,000 inhabitants
+H3 = Municipality with between 10,001 and 25,000 inhabitants
+H4 = Municipality with between 25,001 and 50,000 inhabitants
+H5 = Municipality with between 50,001 and 100,000 inhabitants
+H6 = Municipality with more than 100,000 inhabitants",
+C_GI,Categorization of the (general population) by postal code and Income Level variable.,
+C_II,Categorization of the (insured) population by postal code and Income Level variable.,
+C_IE_P,Categorization of the (general) population by postal code and primary education variable.,
+C_IE_S,Categorization of the (general) population by postal code and secondary education variable.,
+C_IE_T,Categorization of the (general) population by postal code and higher (tertiary) education variable.,
+C_GE_P,Categorization of the (insured) population by postal code and primary education variable.,
+C_GE_S,Categorization of the (insured) population by postal code and secondary education variable.,
+C_GE_T,Categorization of the (insured) population by postal code and higher (tertiary) education variable.,
+C_C,"Categorization of the population by postal code and climatological variable.
+C1 = Central-continental
+C2 = Canary Islands
+C3 = Mediterranean
+C4 = North-continental 
+C5 = South-continental
+C6 = Oceanic",
